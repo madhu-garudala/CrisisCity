@@ -2,6 +2,12 @@
 
 A live comparison arena for OpenAI's Decisions API and TypeSafe Jev. Both engines receive the same emergency-dispatch state and answer equivalent Choice, Score, and Predicate/Noul questions. The UI tracks accuracy against known labels, an outcome-weighted operations score, latency, confidence, token usage, and estimated cost.
 
+**Live benchmark:** [crisis-city.vercel.app](https://crisis-city.vercel.app/)
+
+## Deployment
+
+The production site is deployed on Vercel at [https://crisis-city.vercel.app/](https://crisis-city.vercel.app/).
+
 ## Local development
 
 Create `.env.local` with:
